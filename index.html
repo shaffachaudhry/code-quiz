@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Code Quiz</title>
+</head>
+
+<body>
+    <!--Adding header that includes a link to see high scores and the countdown timer -->
+    <header>
+        <section id="scores-view">
+            <button class= "score-btn"> View High Scores</button>
+            Your Score: <var id="score"></var>
+        </section>
+        <section id="timer">
+            Time Remaining (seconds):<span id="seconds"></span>
+        </section>
+    </header>
+    
+
+    <!--quiz homepage + intro + Start Quiz button -->
+    <section id="home-page">
+        <h1> Code Quiz</h1>
+            <div class="about-box">
+                <div class="about-title">About this Quiz:</div>
+                    <div class= "info-list">
+                        <ol>
+                            <li>You will have a total of 60 seconds for the entirety of this 5 question quiz.</li>
+                            <li>You will recieve points based on correct answers</li>
+                            <li>With each incorrect answer, 10 seconds will be deducted from your allotted time</li>
+                            <li>Once completed, you may save your score with your initials. Good Luck!</li>
+                        </ol>
+                    </div>
+            </div>
+            <div class="start-btn">
+                <button id="start-btn">Start Quiz!</button>
+            </div>
+</section>
+
+
+
+
+<script src="assets/script.js"></script>
+</body>
+</html>
