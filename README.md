@@ -16,7 +16,7 @@ No downloads are necessitated to utilize this password generator. This is a depl
 
 ## Links
 You may access the deployed application at: 
- https://shaffachaudhry.github.io/code-quiz/
+https://shaffachaudhry.github.io/code-quiz/
 
 you may access the repository at: 
 https://github.com/shaffachaudhry/code-quiz
