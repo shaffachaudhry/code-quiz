@@ -4,10 +4,10 @@
 }
 
 :root{
-    --button: rgb(197, 55, 19);
-    --font: rgb(243, 232, 170);
-    --hover: rgb(189, 121, 19);
-    --extra: rgb(13, 168, 34);
+    --button: rgb(29, 66, 113);
+    --font: rgb(255, 255, 252);
+    --hover: rgb(24, 89, 59);
+    --extra: rgb(165, 174, 188);
 }
 
 
@@ -20,13 +20,18 @@ header {
 
 body {
 margin: auto;
-background-color: rgb(158, 120, 120);
+background-color: rgb(186, 186, 186);
     }
 
 h1{
     font-size: 40px;
     display: flex;
     justify-content: center;
+}
+
+header{
+    font-style: italic;
+    color: var(--hover);
 }
 
 .about-box {
@@ -44,20 +49,54 @@ h1{
     font-size: 25px;
 }
 
-.start-btn {
+.startBtn {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.start-btn button{
+.startBtn button{
     margin-top: 2%;
     background-color: var(--button);
     font-size: 20px;
     padding: 10px 10px;
     border: none;
 }
-.start-btn button:hover{
+.startBtn button:hover{
     background-color: var(--hover);
     transition: 0.5s;
+}
+
+button {
+    background-color: var(--button);
+    color: white;
+}
+
+#answerFeedback{
+    font-size: 30px;
+    color: var(--hover);
+    margin-left: 15px;
+}
+
+#quizBox {
+display: flex;
+margin-left: 30px;
+color: var(--button);
+}
+
+
+#quizComplete {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    font-size: larger;
+    color: var(--hover);
+}
+
+#scorePage {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    font-size: larger;
+    color: var(--hover);
 }

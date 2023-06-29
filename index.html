@@ -10,7 +10,7 @@
 <body>
     <!--Adding header that includes a link to see high scores and the countdown timer -->
     <header>
-        <section id="scores-view">
+        <section id="scoresView">
             <button class= "score-btn"> View High Scores</button>
             Your Score: <var id="score"></var>
         </section>
@@ -21,7 +21,7 @@
     
 
     <!--quiz homepage + intro + Start Quiz button -->
-    <section id="home-page">
+    <section id="homePage">
         <h1> Code Quiz</h1>
             <div class="about-box">
                 <div class="about-title">About this Quiz:</div>
@@ -34,13 +34,37 @@
                         </ol>
                     </div>
             </div>
-            <div class="start-btn">
-                <button id="start-btn">Start Quiz!</button>
+            <div class="startBtn">
+                <button id="startBtn">Start Quiz!</button>
             </div>
 </section>
 
 
+<section id="quizBox" style="display: none">
+    <h2 id = "qHeader"></h2>
+    <ul id="choices">
+        <div><button id="answerA"></button></div>
+        <div><button id="answerB"></button></div>
+        <div><button id="answerC"></button></div>
+        <div><button id="answerD"></button></div>
+    </ul>
+</section>
 
+<section id = "answerFeedback"></section>
+
+<div id="quizComplete" style="display: none">
+    <h3>Quiz Complete!</h3>
+    Score: <var id = "finalScore"></var>
+    </br>
+    Save your score: <input type="text" id="scoreInitials">
+    <button onclick="submitScore()" id="submitInitials">Submit</button>
+</div>
+
+<div id="scorePage" style="display: none">
+    <h3>Saved Scores</h3>
+        <div id="savedScores"></div>
+        <button onclick="goHome()" id="backHome">Submit</button>
+</div>
 
 <script src="assets/script.js"></script>
 </body>
