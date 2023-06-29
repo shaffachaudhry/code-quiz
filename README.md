@@ -9,7 +9,7 @@ To create a timed quiz on JavaScript fundamentals that ultimately stores high sc
 This webpage allows users to take a timed quiz over JS fundamentals. The concept involves answering a 60 second quiz of 5 questions. With each correct answer, your score is increased by a point. For each incorrect answers, 10 seconds will be deducted from the timer. In the end, you will be prompted to save your scores with your initials. 
 
 ## Assignment Submission notes: 
-I am knowingly submitting an imcomplete assignment. The quiz is not taking off time for incorrect answers and is not saving submissions.  
+I am knowingly submitting an imcomplete assignment. The quiz is not taking off time for incorrect answers and is not saving submissions.  I plan on finishing this assignment to ensure all acceptance criteria is met
 
 ## Usage 
 No downloads are necessitated to utilize this password generator. This is a deployed webpage application that may be used via any Web browser. 
